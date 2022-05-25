@@ -29,7 +29,7 @@ class MainActivity : Activity() {
 
     val rssiList = ArrayList<Int>()
 
-    @RequiresApi(Build.VERSION_CODES.P)
+    @RequiresApi(Build.VERSION_CODES.Q)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
