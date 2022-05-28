@@ -52,20 +52,34 @@
 
     </ScrollView>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/settings"
+    <ImageButton
+        android:id="@+id/showSettingsPopupButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:clickable="true"
-        android:contentDescription="Settings Button"
-        android:focusable="true"
-        android:src="@android:drawable/ic_dialog_info"
+        android:src="@android:drawable/ic_menu_manage"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/dataHead"
         app:layout_constraintHorizontal_bias="0.957"
-        app:layout_constraintStart_toStartOf="@+id/dataHead"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintVertical_bias="0.013"
+        android:contentDescription="Settings Popup Button" />
+
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/showSettingsPopupButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:clickable="true"-->
+<!--        android:contentDescription="Settings Button"-->
+<!--        android:focusable="true"-->
+<!--        android:src="@android:drawable/ic_dialog_info"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/dataHead"-->
+<!--        app:layout_constraintHorizontal_bias="0.957"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/dataHead"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="HardcodedText" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
